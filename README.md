@@ -8,4 +8,4 @@ This home setup is meant for software development along with offering a secure e
 
 ## What's in a name?
 
-[Jerry Pournelle](https://www.jerrypournelle.com) write a blog and a column in _Byte_ magazine called "Computing at Chaos Manor" which was an early instance of writing in public about building a homelab. I am in the process of refitting our homelab, and thought this would be a fitting nod to his early work.
+Many years ago [Jerry Pournelle](https://www.jerrypournelle.com) wrote a blog and a column in _Byte_ magazine called "Computing at Chaos Manor" which was an early instance of writing in public about building a homelab. I am in the process of refitting our homelab, and thought this would be a fitting nod to his early work.
