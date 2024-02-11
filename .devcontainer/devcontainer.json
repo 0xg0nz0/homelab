@@ -1,0 +1,36 @@
+{
+	"name": "homelab",
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
+		"ghcr.io/devcontainers-community/npm-features/typescript:1": {},
+		"ghcr.io/devcontainers-contrib/features/act:1": {},
+		"ghcr.io/robbert229/devcontainer-features/opentofu:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"davidanson.vscode-markdownlint",
+				"eamodio.gitlens",
+				"github.copilot",
+				"github.vscode-github-actions",
+				"github.vscode-pull-request-github",	
+				"mads-hartmann.bash-ide-vscode",
+				"mattiasbaake.vscode-snippets-for-ansible",
+				"ms-azuretools.vscode-docker",
+				"ms-kubernetes-tools.vscode-kubernetes-tools",
+				"ms-vscode.powershell",
+				"pjmiravalle.terraform-advanced-syntax-highlighting",
+				"redhat.ansible",
+				"shd101wyy.markdown-preview-enhanced",
+				"stuart.unique-window-colors",
+				"styled-components.vscode-styled-components",
+				"vscode-icons-team.vscode-icons",
+				"yzhang.markdown-all-in-one"
+			]
+		}
+	}
+}
