@@ -9,14 +9,14 @@ configure_osx: false
 # configure the Dock via dockutil
 configure_dock: false
 dockitems_remove:
- - Launchpad
- - TV
- - Podcasts
- - 'App Store'
+    - Launchpad
+    - TV
+    - Podcasts
+    - App Store
 dockitems_persist:
- - name: "Docker Desktop"
-   path: "/Applications/Docker.app/"
-   pos: 1
+    - name: Docker Desktop
+      path: /Applications/Docker.app/
+      pos: 1
 
 # for security always require this
 configure_sudoers: false
@@ -24,29 +24,29 @@ sudoers_custom_config: ''
 
 # standard packages for Homebrew
 homebrew_installed_packages:
-  - autoconf
-  - bash-completion
-  - git
-  - gh
-  - gpg
-  - pipx
-  - readline
-  - ssh-copy-id
-  - thefuck
-  - wget
+    - autoconf
+    - bash-completion
+    - git
+    - gh
+    - gpg
+    - pipx
+    - readline
+    - ssh-copy-id
+    - thefuck
+    - wget
 homebrew_taps:
-  - microsoft/git
+    - microsoft/git
 homebrew_cask_appdir: /Applications
 homebrew_cask_accept_external_apps: true
 homebrew_cask_apps:
-  - 1password-cli
-  - docker
-  - google-chrome
+    - 1password-cli
+    - docker
+    - google-chrome
 
 # don't use these package managers yet
 mas_installed_apps: []
-mas_email: ""
-mas_password: ""
+mas_email: ''
+mas_password: ''
 composer_packages: []
 gem_packages: []
 npm_packages: []

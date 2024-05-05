@@ -9,6 +9,8 @@
 		"ghcr.io/devcontainers-community/npm-features/typescript:1": {},
 		"ghcr.io/devcontainers-contrib/features/act:1": {},
 		"ghcr.io/devcontainers-contrib/features/ansible:2": {},
+        "ghcr.io/devcontainers-contrib/features/markdownlint-cli2:1": {},
+        "ghcr.io/devcontainers-contrib/features/pre-commit:2": {},
 		"ghcr.io/hspaans/devcontainer-features/ansible-lint:1": {},
 		"ghcr.io/robbert229/devcontainer-features/opentofu:1": {}
 	},
@@ -16,11 +18,13 @@
 		"vscode": {
 			"extensions": [
 				"davidanson.vscode-markdownlint",
+                "donjayamanne.githistory",
 				"eamodio.gitlens",
+                "foxundermoon.shell-format",
 				"github.copilot",
 				"github.vscode-github-actions",
 				"github.vscode-pull-request-github",
-				"hediet.vscode-drawio",	
+				"hediet.vscode-drawio",
 				"mads-hartmann.bash-ide-vscode",
 				"mattiasbaake.vscode-snippets-for-ansible",
 				"ms-azuretools.vscode-docker",
@@ -32,7 +36,7 @@
 				"stuart.unique-window-colors",
 				"styled-components.vscode-styled-components",
 				"vscode-icons-team.vscode-icons",
-				"yzhang.markdown-all-in-one"
+                "waderyan.gitblame"
 			]
 		}
 	}
