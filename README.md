@@ -24,11 +24,15 @@ Note all of this will be done for you on the _managed nodes_ in the inventory.
 
 ## Prepare managed nodes
 
-- Enable remote access: `sudo systemsetup -setremotelogin on'
+- Enable remote access: `sudo systemsetup -setremotelogin on`
 
 ## Run playbook
 
-TODO
+To run the playbook using the default `config.yml` in the root directory:
+
+```shell
+ansible-playbook main.yml -K -i inventory.ini
+```
 
 ## What's in a name?
 
